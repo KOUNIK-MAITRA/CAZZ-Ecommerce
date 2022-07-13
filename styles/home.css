@@ -1,0 +1,52 @@
+.home_page {
+  padding-top: 78px;
+}
+.Home-Category-name {
+  text-transform: uppercase;
+}
+.filter-icon {
+  margin-left: -1rem;
+}
+.sort {
+  width: 10rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../public/filter.png) no-repeat 100% center;
+  border: none;
+  border-bottom: 1px solid darkgrey;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.sort:focus {
+  border-bottom: 1px solid darkgrey;
+  box-shadow: none;
+}
+
+.category-title-sort {
+  padding-top: 3rem;
+  width: 100vw;
+}
+
+.sort-item:hover {
+  font-weight: bolder;
+}
+
+@media (max-width: 1079px) {
+  .Home-Category-name {
+    font-size: 188%;
+    text-align: left;
+  }
+  .category-title-sort {
+    padding-left: 1rem !important;
+    padding-right: 0rem !important;
+  }
+  .category-title-sort {
+    padding-top: 1rem;
+  }
+  .Home-Category-name {
+    font-size: x-large;
+  }
+}

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&family=Nunito:wght@500&display=swap");
+/* @font-face {
+  font-family: "Silka";
+  src: url("../Silka/Silka-Regular.woff2");
+  font-weight: 500;
+  font-style: normal;
+} */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif !important;
+  font-size: medium !important;
+  overflow: overlay;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10rem;
+  border-radius: 100rem;
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgba(123, 123, 126, 0.533);
+  border-radius: 2rem;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(75, 74, 74, 0.333);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+.number-field::-webkit-outer-spin-button,
+.number-field::-webkit-inner-spin-button {
+  /* Chrome, Safari, Edge, Opera */
+
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.number-field {
+  -moz-appearance: textfield;
+}
+@media (max-width: 320px) {
+  body {
+    font-size: medium !important;
+  }
+}
+/* ----------- Loading ------------- */
+@import url("./loading.css");
+
+/* ----------- Products ------------- */
+@import url("./product.css");
+
+@import url("./product_detail.css");
+
+/* ----------- Profile ------------- */
+@import url("./profile.css");
+
+/* ----------- Products Manager ------------- */
+@import url("./products_manager.css");
+
+@import url("./signin.css");
+
+@import url("./register.css");
+
+@import url("./navbar.css");
+@import url("./user.css");
+
+/* @import url("./cart.css"); */
+
+@import url("./footer.css");
+
+@import url("./filter.css");
+
+@import url("./load_button.css");
+
+@import url("./landingPage.css");
+
+@import url("./searchbar.css");
+
+@import url("./Cart-display.css");
+
+@import url("./home.css");
+
+@import url("./infoPages.css");
+
+@import url("./about.css");
+
+@import url("./modal.css");
+
+@import url("./mobileCart.css");
+
+@import url("./mobileproduct-detail.css");
+
+@import url("./contactUs.css");
+
+@import url("./toast.css");
+
+@import url("./faq_accordion.css");
+
+@import url("./orderStatus.css");

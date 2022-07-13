@@ -1,0 +1,104 @@
+.profile_page .avatar {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile_page .avatar img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.profile_page .avatar span {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: #fff8;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  transition: 0.3 ease-in-out;
+}
+
+.profile_page .avatar:hover span {
+  bottom: -15%;
+}
+
+.profile_page #file_up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.profile_page {
+  padding: 6rem 7% 2%;
+  color: black;
+  background-color: #f1f1f1;
+}
+
+.personal-details {
+  color: black;
+  height: 70%;
+  padding: 3%;
+
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.555);
+  height: 100%;
+  width: 100%;
+  margin-top: 1rem;
+  box-shadow: 5.3px 4.4px 11.8px rgba(0, 0, 0, 0.11),
+    42px 35px 94px rgba(0, 0, 0, 0.055);
+}
+
+.user-order-details {
+  color: black;
+  padding: 3%;
+  border: 2px solid black;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.555);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  height: 83vh;
+  overflow-y: scroll;
+  box-shadow: 5.3px 4.4px 11.8px rgba(0, 0, 0, 0.11),
+    42px 35px 94px rgba(0, 0, 0, 0.055);
+}
+.user-order-details::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 767px) and (max-width: 1439px) {
+  .profile_page {
+    padding: 6rem 6% 3%;
+    color: black;
+  }
+
+  .personal-details {
+    margin-left: 1.5%;
+  }
+  .user-order-details {
+    font-size: 60%;
+    margin-left: 6%;
+  }
+}
+.order-id-link:hover {
+  text-decoration: underline;
+  color: rgba(37, 128, 128, 0.75);
+}

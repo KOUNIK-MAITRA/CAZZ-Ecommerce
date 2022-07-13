@@ -1,0 +1,41 @@
+.order-success {
+  background-color: rgb(35, 187, 14);
+}
+
+.order-pending {
+  background-color: lightgray;
+}
+
+.order-status-icon {
+  font-size: larger;
+}
+
+.order-status-font-pending {
+  color: rgb(187, 186, 186);
+}
+
+.order-status-font-success {
+  color: rgb(19, 121, 5);
+  font-weight: bolder;
+}
+.order-status-font-text-success {
+  color: rgb(70, 70, 70);
+  font-weight: bolder;
+}
+
+.payNow-btn {
+  width: 100%;
+  background-color: #161829;
+  text-align: center;
+  font-weight: 800;
+  padding: 8px 0px;
+  color: white !important;
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.payNow-btn:hover {
+  background-color: #454547;
+}

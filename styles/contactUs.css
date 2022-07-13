@@ -1,0 +1,114 @@
+.contact-us-message {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  height: 10rem !important;
+}
+
+.contact-us-message::-webkit-scrollbar {
+  display: none;
+}
+
+.contact-us-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 3rem;
+}
+
+.contact-us-info {
+  width: 40%;
+}
+
+.contactUs-form-div {
+  width: 60%;
+}
+
+.contactform-input-field {
+  width: 80%;
+  background-color: rgb(233, 232, 232);
+}
+
+.contactform-input-field:focus {
+  border: 1px solid darkgray !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.contact-us-submit-button {
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  background: #095e66; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #095e66,
+    #0b8793,
+    #095e66
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0b8793,
+    #0c717a,
+    #0c717a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-us-submit-button:hover {
+  color: white;
+  background: #095e66; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #095e66,
+    #0b8793,
+    #095e66
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0c717a,
+    #0b8793,
+    #0c717a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contact-us-detail-icons {
+  font-size: 120%;
+  color: rgb(85, 84, 84);
+}
+
+.contact-us-social-icons {
+  font-size: 150%;
+  color: rgb(85, 84, 84);
+}
+
+.contact-us-social-icons a:hover {
+  color: rgb(49, 49, 49);
+}
+
+@media (max-width: 1079px) {
+  .contact-us-wrapper {
+    display: block;
+    padding: 0;
+  }
+  .contact-us-info {
+    width: 100%;
+  }
+
+  .contactUs-form-div {
+    width: 100%;
+  }
+  .contactform-input-field {
+    width: 100%;
+  }
+  .contact-us-submit-button {
+    width: 100%;
+  }
+}
+
+.contact-us-detail-icons {
+  font-size: 100%;
+  color: rgb(85, 84, 84);
+}
+
+.contact-us-social-icons {
+  margin-top: 1rem;
+  font-size: 150%;
+  color: rgb(85, 84, 84);
+}

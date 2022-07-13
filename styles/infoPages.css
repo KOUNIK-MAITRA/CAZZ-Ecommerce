@@ -1,0 +1,43 @@
+.footer-pages {
+  padding-top: 78px;
+}
+
+.info-title-div {
+  padding: 2%;
+  color: #252525;
+  width: 100vw;
+  height: 16vh;
+}
+.home-link-info-page :hover {
+  text-decoration: none;
+}
+.home-link-info-page a:hover {
+  color: darkorange;
+}
+@media (max-width: 426px) {
+  .info-title-div h1 {
+    font-size: 170%;
+  }
+  .info-title-div {
+    height: 12vh;
+  }
+}
+
+@media (max-width: 426px) {
+  .info-title-div h1 {
+    font-size: 170%;
+  }
+  .info-title-div {
+    height: 12vh;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 374px) {
+  .info-title-div h1 {
+    font-size: 140%;
+  }
+  .info-title-div {
+    padding: 2%;
+    height: 11vh;
+  }
+}

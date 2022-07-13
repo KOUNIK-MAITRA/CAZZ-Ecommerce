@@ -1,0 +1,141 @@
+#wrapper {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  min-height: 100%;
+}
+
+.first-register-div {
+  background: #000046;
+  background: -webkit-linear-gradient(
+    to bottom,
+    #001946,
+    #47dde7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000046, #1cb5e0);
+  color: white;
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  float: right;
+}
+
+.second-register-div {
+  padding-top: 6rem;
+  background-color: white;
+  width: 60%;
+  height: 100%;
+
+  margin: auto;
+  float: left;
+}
+
+.register-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.signin {
+  text-align: center;
+  margin-top: 40%;
+}
+
+.loginNow-btn {
+  padding-right: 4%;
+  padding-left: 4%;
+  color: white;
+  border: 1px solid rgb(30, 166, 184);
+  border-radius: 2rem;
+  box-shadow: 0 2px 5px rgb(31, 31, 80);
+  transition-duration: 0.7s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.loginNow-btn a {
+  text-decoration: none;
+}
+.loginNow-btn:hover {
+  font-weight: bolder;
+  color: white !important;
+}
+
+.loginNow-btn a:hover {
+  font-weight: bolder;
+  color: white !important;
+}
+
+.outer-form {
+  margin: 0%;
+}
+
+.Register-btn {
+  width: 100%;
+  box-shadow: rgb(23, 23, 31) 2px 3px 6px;
+  color: white;
+  background: #360033; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0b8793,
+    #150036
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0b8793, #170029);
+}
+.Register-btn:hover {
+  color: white;
+  background: #360033; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0b8793,
+    #150036
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0b8793, #170029);
+}
+.Register-btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.login-now-link {
+  color: rgb(10, 10, 184);
+}
+
+.responsiveLink {
+  color: rgb(10, 10, 184);
+  text-decoration: none !important;
+}
+.responsiveLink:hover {
+  color: rgb(10, 10, 184);
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+.login-now-link {
+  color: rgb(10, 10, 184);
+  text-decoration: none !important;
+}
+.login-ow-link a:hover {
+  font-weight: bolder !important;
+}
+
+@media (max-width: 1079px) {
+  .first-register-div {
+    display: none;
+  }
+  .second-register-div {
+    padding: 1rem;
+    padding-top: 3rem;
+    width: 100%;
+    background-color: white;
+    background-size: 100% 100%;
+  }
+
+  .Register-btn {
+    width: 80%;
+    margin-left: 11%;
+  }
+  .register-logo {
+    width: 40%;
+  }
+}

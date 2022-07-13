@@ -1,0 +1,22 @@
+.load-more {
+  font-weight: bolder;
+
+  color: white;
+  font-size: large;
+  border: 1px solid #fa6134;
+  /* box-shadow: 3px 2px 8px gray; */
+  background: #fa6134;
+  transition-duration: 0.7s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.load-more:hover {
+  color: #dc2626;
+  background: #fff;
+}
+
+.load-more:focus {
+  box-shadow: none;
+  outline: none;
+}

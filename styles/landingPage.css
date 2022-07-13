@@ -1,0 +1,46 @@
+.landing-page-wrapper {
+  padding-top: 78px;
+  width: 100vw;
+  height: auto;
+}
+.Cazz-banner-img {
+  width: 100%;
+  height: 40%;
+}
+
+.promotional-banner-img {
+  width: 100%;
+  height: 50%;
+}
+.promotional-banner {
+  padding: 1%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.staticBanner-wrapper {
+  height: 40%;
+}
+
+.static-banner-images {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+.static-banner-images:hover {
+  transform: scale(1.05);
+}
+.landingpage-category-titles {
+  font-size: xx-large;
+}
+.img-over-zoom {
+  display: inline-block;
+  overflow: hidden;
+}
+@media (max-width: 1079px) {
+  .landingpage-category-titles {
+    font-size: medium;
+  }
+  .carousel-indicators {
+    margin-bottom: 4px !important;
+  }
+}

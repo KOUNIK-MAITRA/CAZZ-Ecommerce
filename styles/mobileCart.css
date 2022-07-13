@@ -1,0 +1,34 @@
+.mobile-product-img {
+  text-align: left;
+  width: 100%;
+}
+.mobile-product-img img {
+  text-align: left;
+  width: 7rem;
+  height: 6rem;
+  border: 3px solid white;
+}
+
+.mobile-discount-input {
+  width: 14.6rem;
+  height: 2.5rem;
+  margin-bottom: 0;
+}
+.mobile-cart-quantity {
+  margin: 0;
+}
+
+.mobile-cart-quantity input {
+  width: 2rem;
+  margin: 0 10px !important;
+}
+.mobile-cart-quantity {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.remove-item-mobile {
+  margin-right: 0;
+  padding-left: 1rem;
+  padding-bottom: 3.5rem;
+}

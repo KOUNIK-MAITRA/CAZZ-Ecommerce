@@ -1,0 +1,66 @@
+.Modal {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-left: 1rem solid rgb(190, 8, 8);
+  background-color: rgb(255 255 255 / 86%);
+  flex-direction: row;
+}
+.modal-delete-button {
+  color: rgb(255 255 255 / 86%);
+  font-weight: bold;
+  background-color: rgb(207, 8, 8);
+}
+.modal-delete-icon {
+  padding: 1rem 1.1rem;
+  border: 2px solid rgb(168, 5, 5);
+  border-radius: 100%;
+}
+.modal-body-delete {
+  margin: 0 0;
+  border-radius: none;
+  color: #b10606;
+  font-weight: bolder;
+}
+.modal-cancel-button {
+  color: rgb(255 255 255 / 86%);
+  font-weight: bold;
+  background-color: #adadad;
+}
+
+.modal-delete-button:hover {
+  border: 2px solid rgb(158, 34, 34);
+  background-color: rgb(255 255 255 / 86%);
+  color: rgb(158, 34, 34);
+}
+
+.modal-cancel-button:hover {
+  color: #adadad;
+  background-color: rgb(255 255 255 / 86%);
+  border: 2px solid #adadad;
+}
+
+.delete-modal-header {
+  /* background-color: rgb(234 71 97); */
+  font-size: 200%;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+
+  color: rgb(168, 5, 5);
+}
+
+.delete-modal-footer {
+  border-top: none;
+}
+
+.delete-modal-close-icon {
+  color: #fcc1c1;
+}
+.delete-modal-close-icon:hover {
+  color: rgb(255 255 255 / 86%);
+}
+
+.delete-modal-close-icon:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}

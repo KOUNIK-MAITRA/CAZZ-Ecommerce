@@ -1,0 +1,12 @@
+.toast-custom {
+  top: 20px;
+  right: 18px;
+  z-index: 1031;
+  min-width: 270px;
+  max-width: 350px;
+  padding: 1rem;
+}
+.toast-icon {
+  display: flex;
+  align-items: center;
+}

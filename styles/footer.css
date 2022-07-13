@@ -1,0 +1,103 @@
+.footer-wrapper {
+  background: #26282c;
+  padding: 5% 10% 0.7%;
+}
+
+.footer-info-links {
+  padding: 0;
+}
+
+.footer-info-links :hover {
+  text-decoration: none;
+  color: white;
+}
+
+.CAZZ-footer-logo {
+  font-size: 400%;
+  margin: 4%;
+}
+.logo-div {
+  width: 40vw;
+}
+.Cazz_logo_footer {
+  width: 8rem;
+  height: 10rem;
+  object-fit: contain !important;
+}
+
+.footer-info {
+  width: 60vw;
+
+  padding-left: 2%;
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+}
+
+.footer-info-headings {
+  color: white;
+  margin-bottom: 4%;
+  font-weight: 600;
+}
+
+.footer-info-links {
+  color: rgb(180, 179, 179);
+  padding-left: 0;
+}
+
+.min-footer {
+  display: flex;
+  justify-content: center;
+}
+.min-footer-text {
+  text-align: center;
+  color: rgb(175, 174, 174);
+}
+.socials ul {
+  padding: 0;
+}
+.social-icon {
+  font-size: 200%;
+}
+
+@media (max-width: 1079px) {
+  .footer-info {
+    display: block;
+    text-align: center;
+  }
+
+  .information,
+  .company,
+  .socials,
+  .logo-div {
+    text-align: center;
+  }
+  .logo-div {
+    margin-bottom: 1.5rem;
+  }
+  .footer-wrapper {
+    padding-top: 10%;
+  }
+  .Cazz_logo_footer {
+    width: auto;
+    height: 7rem;
+    object-fit: contain !important;
+  }
+  .footer-wrapper {
+    background: #26282c;
+    padding: 5% 5% 0.7%;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 374px) {
+  .footer-wrapper {
+    font-size: 70%;
+  }
+}
+
+@media (min-width: 2559px) {
+  .footer-wrapper {
+    height: 70vh;
+    font-size: 200%;
+  }
+}

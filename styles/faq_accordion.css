@@ -1,0 +1,8 @@
+.faq-card {
+  border-radius: 0;
+  border-bottom: 0;
+  color: rgb(65, 64, 64);
+}
+.card-body-faq {
+  font-size: 180%;
+}
